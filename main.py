@@ -12,7 +12,7 @@ class ParsingError(Exception):
 API_KEY = os.environ["API_KEY"]
 
 NUM=30
-START=61
+START=0
 CATEGORY= "cs.CY"
 #"cs.CY" - Computers and Society
 #"xxx" - Artificial Intelligence
@@ -94,5 +94,3 @@ if input("Looks good? ") == "y":
     
     with open('papers_db.json', 'w') as file:
         json.dump(data, file, indent=4)
-
-

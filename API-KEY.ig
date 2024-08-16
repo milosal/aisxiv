@@ -1,0 +1,1 @@
+GEMINI-KEY=AIzaSyA3qK51zxixkHHInitZoTta24gjbjxMcko
